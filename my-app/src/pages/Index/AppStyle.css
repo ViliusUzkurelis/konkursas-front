@@ -1,0 +1,26 @@
+main {
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+main form div input{
+  display: block;
+}
+main .images img {
+  width: 100px;
+}
+main .images {
+  display: flex;
+  gap: 10px;
+}
+main .images div button{
+  display: block;
+}
+main .loading {
+  color: white;
+  background-color: red;
+  padding: 5px;
+  text-align: center;
+}

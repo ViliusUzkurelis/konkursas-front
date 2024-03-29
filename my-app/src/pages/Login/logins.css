@@ -1,0 +1,21 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main form label{
+    display: block;
+}
+main form button {
+    display: block;
+}
+main form p {
+    transition: 0.3s;
+}
+main form .wrong {
+    padding: 15px;
+    background-color: red;
+    color: white;
+    transition: 0.3s;
+}
